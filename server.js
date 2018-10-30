@@ -23,7 +23,7 @@ async function Main() {
 
   for (
     let i = 0;
-    i < 10;
+    i < 10; /*Esta es una modificacion bien perronga*/
     i++ // <-- You have to to set the arr.length to make it loop infinitely
   ) {
     await page.goto(`https://www.twitch.tv/${nextPage}/following`);
